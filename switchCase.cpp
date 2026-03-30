@@ -20,3 +20,7 @@ void input() {
 // prosedur untuk pengecekan kondisi
 void pilihanJurusan() {
     switch (kodeJurusan) {
+        case 1:
+            namaJurusan = "Teknologi Informasi";
+            statusKuota = "Tersedia (15 Kursi)";
+            break;
